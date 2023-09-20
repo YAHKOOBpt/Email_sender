@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="POST" enctype="multipart/form-data">
+        {% csrf_token %}
+        <label for="">name</label>
+        <input type="text" name="name" id="">
+        <label for="">Address</label>
+        <input type="text" name="address" id="">
+        <label for="">city</label>
+        <input type="text" name="city" id="">
+        <label for="">post code</label>
+        <input type="number" name="code" id="">
+        <label for="">phone</label>
+        <input type="number" name="phone" id="">
+        <label for="">email</label>
+        <input type="email" name="email" id="">
+        <input type="file" name="file">
+        <button type="submit">submit</button>
+    </form>
+</body>
+</html>
